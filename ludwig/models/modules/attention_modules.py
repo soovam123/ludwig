@@ -17,9 +17,7 @@ import logging
 
 import tensorflow as tf
 
-
 logger = logging.getLogger(__name__)
-
 
 def reduce_feed_forward_attention(current_inputs, hidden_size=256):
     with tf.compat.v1.variable_scope('reduce_ff_attention'):
